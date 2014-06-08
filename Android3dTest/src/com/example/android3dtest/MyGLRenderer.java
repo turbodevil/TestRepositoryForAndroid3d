@@ -20,7 +20,7 @@ class MyGLRenderer implements GLSurfaceView.Renderer {
 
 	public void onSurfaceCreated(GL10 gl, EGLConfig config) 
 	{
-		boolean SEE_THRU = true;
+		boolean SEE_THRU = false;
 
 
 		startTime = System.currentTimeMillis();
